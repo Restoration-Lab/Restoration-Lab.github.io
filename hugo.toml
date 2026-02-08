@@ -1,6 +1,6 @@
-baseURL = "https://example.com"
-title = "Tella"
-author = "username"
+baseURL = "https://2ec91f745954.restoration-lab.net/"
+title = "Restoration Lab"
+author = "Restoration Lab Web Admin"
 languageCode = "en"
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
@@ -18,44 +18,34 @@ enableRobotsTXT = true
 
 [params]
 
-  showBlog = true
+  showBlog = false
   mainSections = ['blog']
 
   googleFonts = true
 
   [params.logo]
     main = "img/logo/logo.svg"
-    alt = "Tella Logo"
+    alt = "Restoration Lab Logo - Letters R and L around a graphic depiction of a human spine"
 
     # The size parameter is the class name of tailwindcss
     # https://tailwindcss.com/
     size = "h-14"
 
   [params.site]
-    name = "Tella"
+    name = "Restoration Lab"
 
   [params.icon]
     #If you want to use FontAwesome, set this parameter to true.
     fontawesome = true
 
   [params.homepage_meta_tags]
-    meta_description = "A Hugo Theme for OSSProject, Companies, Organization..."
+    meta_description = "Restoration Lab - An Albuquerque clinic of Naprapathic Medicine"
     meta_og_title = "Tella"
     meta_og_type = "website"
-    meta_og_url = "https://tella.pages.dev"
+    meta_og_url = "https://restoration-lab.net"
     meta_og_image = "https://raw.githubusercontent.com/opera7133/tella/master/images/tn.png"
-    meta_og_description = "A Hugo Theme for OSSProject, Companies, Organization..."
-    meta_twitter_card = "summary_large_image"
-    meta_twitter_site = "@username"
-    meta_twitter_creator = "@username"
 
 [menu]
-
-  [[menu.main]]
-    identifier = "products"
-    name = "Products"
-    url = "/products/"
-    weight = 1
 
   [[menu.main]]
     identifier = "blog"
@@ -65,15 +55,15 @@ enableRobotsTXT = true
 
   [[menu.main]]
     identifier = "about"
-    name = "About"
+    name = "About Us"
     url = "/about/"
-    weight = 3
+    weight = 1
 
   [[menu.main]]
     identifier = "contact"
     name = "Contact"
     url = "/contact/"
-    weight = 4
+    weight = 3
 
   # Footer Menu
   [[menu.footer]]
