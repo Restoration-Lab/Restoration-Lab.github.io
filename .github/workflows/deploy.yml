@@ -1,11 +1,17 @@
 name: build and deploy hugo site
-permissions:
-  contents: write
 
 on:
   push:
     branches:
       - master  # Set a branch to deploy
+
+permissions:
+  contents: write
+  pages: write
+
+defaults:
+  run:
+    shell: bash
 
 jobs:
   deploy:
