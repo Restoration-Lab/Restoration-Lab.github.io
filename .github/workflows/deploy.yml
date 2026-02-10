@@ -51,4 +51,6 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           publish_branch: site
+          user_name: 'Web Admin'
+          user_email: 'webadmin@restoration-lab.net'
           force_orphan: true
