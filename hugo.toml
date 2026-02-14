@@ -36,6 +36,7 @@ disableKinds = ["taxonomy", "term"]
 
   [params.site]
     name = "Restoration Lab"
+    header = "Welcome to the Restoration Lab"
 
   [params.icon]
     #If you want to use FontAwesome, set this parameter to true.
